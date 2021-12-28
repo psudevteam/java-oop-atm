@@ -1,5 +1,6 @@
 package src.checker.java;
 
+// Ini adalah bagian import
 import java.util.Scanner;
 import src.transaction.java.Transaction;
 
