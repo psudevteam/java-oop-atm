@@ -4,6 +4,7 @@ package src.checker.java;
 import java.util.Scanner;
 import src.transaction.java.Transaction;
 
+// ini adalah class
 public class Checker {
   static void O(String newData){
     System.out.print(newData);
