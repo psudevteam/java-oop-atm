@@ -10,6 +10,7 @@ public class Checker {
     System.out.print(newData);
   }
 
+  // fungsi menu
   static void Menu(){
     O("1.Cek Saldo\n2.Transfer\n3.Exit\nSilahkan Pilih : ");
   }
