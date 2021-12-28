@@ -72,7 +72,10 @@ public class Checker {
           fenny.transferBallance(c);
           O("Sisa Saldo anda adalah : Rp." + fenny.getBallance());
         }
+      }
 
+      else {
+        O("Terimakasih telah menggunakan program ini\n");
       }
 
     }
@@ -114,7 +117,11 @@ public class Checker {
             fenny.transferBallance(c);
             O("Sisa Saldo anda adalah : Rp." + fenny.getBallance());
           }
-      }
+        }
+
+        else {
+        O("Terimakasih telah menggunakan program ini\n");
+        }
     }
 
     else if (p == Integer.parseInt(kirwan.getAccountPin())) {
@@ -155,6 +162,9 @@ public class Checker {
             O("Sisa Saldo anda adalah : Rp." + kirwan.getBallance());
           }
       }
+      else {
+            O("Terimakasih telah menggunakan program ini\n");
+          }
     }
 
     else {
