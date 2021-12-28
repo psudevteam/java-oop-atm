@@ -11,7 +11,7 @@ public class Checker {
   }
 
   static void Menu(){
-    O("1.Cek Saldo\n2.Transfer\nSilahkan Pilih : ");
+    O("1.Cek Saldo\n2.Transfer\n3.Exit\nSilahkan Pilih : ");
   }
 
   static void toInt(String newData){
