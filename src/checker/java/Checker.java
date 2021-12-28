@@ -10,6 +10,10 @@ public class Checker {
     System.out.print(newData);
   }
 
+  static void Menu(){
+    O("1.Cek Saldo\n2.Transfer\nSilahkan Pilih : ");
+  }
+
   static void toInt(String newData){
     Integer.parseInt(newData);
   }
@@ -33,7 +37,7 @@ public class Checker {
 
     if (p == Integer.parseInt(fenny.getAccountPin())) {
 
-      O("1.Cek Saldo\n2.Transfer\nSilahkan Pilih : ");
+      Menu();     
       String choices = sc.nextLine();
       int b = Integer.parseInt(choices);
 
@@ -74,8 +78,8 @@ public class Checker {
     }
 
     else if (p == Integer.parseInt(maulana.getAccountPin())) {
-
-        O("1.Cek Saldo\n2.Transfer\nSilahkan Pilih : ");
+        
+        Menu();
         String choices = sc.nextLine();
         int b = Integer.parseInt(choices);
 
@@ -114,8 +118,8 @@ public class Checker {
     }
 
     else if (p == Integer.parseInt(kirwan.getAccountPin())) {
-
-        O("1.Cek Saldo\n2.Transfer\nSilahkan Pilih : ");
+        
+        Menu();
         String choices = sc.nextLine();
         int b = Integer.parseInt(choices);
 
